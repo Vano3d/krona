@@ -1,10 +1,11 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/Montserrat/fonts.css);
 
 .page {
     min-width: 1024px;
     max-width: 1920px;
     margin: 0 auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Montserrat', 'Verdana', sans-serif;
     background-color: #f1f1f1;
   }
 
@@ -120,8 +121,8 @@
     margin: 0;
     padding: 0;
     line-height: 1.15;
-    font-size: 28px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 500;
     color: #1f4e94;
   }
 
