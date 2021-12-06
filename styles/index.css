@@ -74,7 +74,6 @@
 
   .welcome {
     text-align: center;
-    
     margin: 12px 12px;
   }
   
@@ -173,4 +172,44 @@
       .content {
         padding: 20px;
     }
+}
+
+@media screen and (max-width: 440px) {
+  
+  .welcome {
+    
+    margin: 0;
+  }
+  .content {
+    padding: 0;
+}
+  
+  .cards__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 320px;
+    
+     }
+     
+     .menu__items {
+      line-height: 20px;
+      font-size: 12px;
+      padding-left: 20px;
+    }
+    .menu__item-link {
+      margin-bottom: 10px;
+    }
+    .cards {
+      margin-top: 5px;
+    }
+    .header__username {
+      font-size: 10px;
+  }
+  .cards__title {
+      font-size: 24px;
+
+    }
+    .content {
+      padding: 20px;
+  }
 }
