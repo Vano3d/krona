@@ -147,20 +147,20 @@
     
   
     .cards__item {
-        min-width: 400px;
+        /* min-width: 380px; */
         
        }
        
        .menu__items {
         line-height: 20px;
         font-size: 12px;
-        padding-left: 20px;
+        /* padding-left: 20px; */
       }
       .menu__item-link {
         margin-bottom: 10px;
       }
       .cards {
-        margin-top: 5px;
+        margin-top: 0;
       }
       .header__username {
         font-size: 10px;
@@ -170,7 +170,7 @@
   
       }
       .content {
-        padding: 20px;
+        padding-top: 0;
     }
 }
 
@@ -180,14 +180,16 @@
     
     margin: 0;
   }
+
   .content {
+    margin: 0;
     padding: 0;
 }
   
   .cards__item {
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 320px;
+    max-width: 400px;
     
      }
      
@@ -210,6 +212,6 @@
 
     }
     .content {
-      padding: 20px;
+      padding: 10px;
   }
 }
