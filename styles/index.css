@@ -74,12 +74,14 @@
 
   .welcome {
     text-align: center;
+    
+    margin: 12px 12px;
   }
   
   .cards {
     list-style: none;
     display: flex;
-
+    
     align-items: flex-start;
     text-align: left;
     flex-wrap: wrap;
@@ -107,7 +109,7 @@
     flex-basis: 420px;
     box-shadow: 0px 1px 4px 0px gray;
     transition: transform 0.2s ease 0s, box-shadow 0.2s 0s;
-    max-width: 932px;
+    max-width: 920px;
    }
 
    .cards__item:hover {
@@ -144,19 +146,10 @@
 
 @media screen and (max-width: 620px) {
     
+  
     .cards__item {
         min-width: 400px;
-        height: 178px;
-        background-color: #fff;
-        box-shadow: 0px 1px 4px 0px gray;
-        background-image: url(../images/krona_arrow.png);
-        background-position: right 14px bottom 14px;
-        background-size: inherit;
-        background-repeat: no-repeat;
-        margin: 12px;
-        padding: 28px 14px 14px 14px;
-        box-sizing: border-box;
-        position: relative;
+        
        }
        
        .menu__items {
