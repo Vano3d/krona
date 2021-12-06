@@ -3,14 +3,16 @@
 
 .page {
     /* min-width: 800px; */
-    max-width: 1920px;
+    /* max-width: 1920px; */
     margin: 0 auto;
     font-family: 'Montserrat', 'Verdana', sans-serif;
     background-color: #f1f1f1;
   }
 
+
+
 .header {
-    max-width: 100%;
+    max-width: 1920px;
     min-height: 120px;
     max-height: 756px;
     display: flex;
@@ -74,34 +76,45 @@
       
   }
 
+
+  .welcome {
+    text-align: center;
+  }
+  
   .cards {
     list-style: none;
     display: flex;
+
     align-items: flex-start;
     text-align: left;
     flex-wrap: wrap;
-    padding: 0;
+    /* padding-left: 24px;
+    padding-right: 24px; */
     width: 100%;
     justify-content: flex-start;
     position: relative;
+    margin: 0;
+    padding: 0;
    
   }
   
   .cards__item {
     margin: 0;
-    width: 608px;
-    height: 178px;
+    height: 164px;
     background-color: #fff;
     box-shadow: 0px 1px 4px 0px gray;
     background-image: url(../images/krona_arrow.png);
     background-position: right 14px bottom 14px;
     background-size: inherit;
     background-repeat: no-repeat;
-
+    
     margin: 12px;
-    padding: 28px 14px 14px 14px;
+    padding: 25px 14px 14px 14px;
     box-sizing: border-box;
     position: relative;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* flex-basis: 450px; */
    }
 
    .cards__item:hover {
@@ -113,7 +126,7 @@
     margin: 0;
     padding: 0;
     line-height: 1.15;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 500;
     color: #1f4e94;
   }
@@ -123,7 +136,7 @@
     line-height: 22px;
     font-weight: normal;
     margin: 14px 0 0 0;
-    max-width: 270px;
+    /* max-width: 270px; */
     color: #1f4e94;
   }
 
