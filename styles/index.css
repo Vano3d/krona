@@ -38,7 +38,7 @@
 
 
   .menu__items {
-    margin: 0 0 0 0;
+    margin: 0;
     line-height: 25px;
     font-size: 14px;
     font-weight: normal;
@@ -60,8 +60,7 @@
   .menu__item-link:hover {
     background-color: white;  
     color: #0c4d99;
-    
-    transition: .2s ease-out;
+    transition: 0.2s ease;
   }
 
   .header__username {
@@ -103,22 +102,24 @@
     height: 164px;
     background-color: #fff;
     box-shadow: 0px 1px 4px 0px gray;
+    transition: transform 0.3s ease 0s, box-shadow 0.3s 0s;
     background-image: url(../images/krona_arrow.png);
     background-position: right 14px bottom 14px;
     background-size: inherit;
     background-repeat: no-repeat;
-    
     margin: 12px;
     padding: 25px 14px 14px 14px;
     box-sizing: border-box;
     position: relative;
     flex-grow: 1;
-    flex-shrink: 1;
-    /* flex-basis: 450px; */
+    flex-shrink: 0;
+    flex-basis: 420px;
    }
 
    .cards__item:hover {
-    box-shadow: 2px 3px 5px 1px #b4b4b4;
+    /* box-shadow: 2px 3px 5px 1px #b4b4b4; */
+    box-shadow: 0 5px 12px 0 rgba(0,0,0,0.16);
+    transform: translateY(-2px);
     transition: .2s ease-in-out;
    }
 
