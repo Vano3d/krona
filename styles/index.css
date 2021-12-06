@@ -143,18 +143,16 @@
     height: 100%;
 }
 
+
+
 @media screen and (max-width: 620px) {
     
-  
-    .cards__item {
-        /* min-width: 380px; */
-        
-       }
+
        
        .menu__items {
         line-height: 20px;
         font-size: 12px;
-        /* padding-left: 20px; */
+
       }
       .menu__item-link {
         margin-bottom: 10px;
@@ -187,11 +185,11 @@
 }
   
   .cards__item {
-    flex-grow: 0;
+    flex-grow: 1;
     flex-shrink: 0;
-    max-width: 400px;
+    flex-basis: 360px;
     
-     }
+  }
      
      .menu__items {
       line-height: 20px;
@@ -213,5 +211,16 @@
     }
     .content {
       padding: 10px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  
+
+  .cards__item {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 340px;
+    
   }
 }
