@@ -21,8 +21,17 @@
       <section class="form">
         <h1 class="form__title">Вход в аккаунт</h1>
 
-        <input name="name" class="form__input" type="text" placeholder="..." value="имя" required required=""autocomplete="off">
-        <input name="password" class="form__input" type="text" placeholder="..." required value="пароль" required=""autocomplete="off">
+        <input name="name" class="form__input" type="text" placeholder="..." value="имя" required="" autocomplete="off">
+        <input name="password" class="form__input" type="text" placeholder="..." value="пароль" required="" autocomplete="off">
+      
+        <div class="form__wrapper">
+          <input name="remember" class="form__checkbox" type="checkbox" value="no">
+          <label class="form__remember">Запомнить</label>
+          <label class="form__reset">Сбросить пароль</label>
+       </div>
+
+        <button type="submit" class="form__button">Войти</button>
+
 
 
       </section>
