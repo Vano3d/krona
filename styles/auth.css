@@ -65,8 +65,6 @@
   margin: 0;
 }
 
-
-
 .form__input {
   margin-top: 160px;
   width: 100%;
@@ -222,16 +220,52 @@
 
 
 @media screen and (max-width: 620px) {
-    
+  .footer__wrapper {
+flex-direction: column;
+  }
+  .footer__logo {
+   margin-bottom: 16px;
+  }
       
 }
 
 @media screen and (max-width: 440px) {
+  .header__logo {
+    width: 102px;
+    height: 33px;
+   
+  }
+  .form__title {
+    font-size: 30px;
+   }
+   .form {
+    width: 400px;
+  }
+
+  .footer__address {
+    font-size: 14px;
+  }
   
+  .footer__contacts {
+    font-size: 14px;
+  }
   
 }
 
 @media screen and (max-width: 375px) {
+  .form__title {
+    font-size: 24px;
+   }
+   .form {
+    width: 350px;
+  }
+
+    .footer__address {
+    font-size: 12px;
+  }
   
+  .footer__contacts {
+    font-size: 12px;
+  }
 
 }
