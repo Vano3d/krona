@@ -41,11 +41,13 @@
 .form {
   width: 455px;
   text-align: center;
+
 }
 
 .form__title {
   font-size: 36px;
   font-weight: 500;
+  margin: 0;
 }
 
 
@@ -167,12 +169,16 @@
 }
 
 .footer {
-  padding: 40px 20px 30px 20px;
-  /* height: 120px; */
-  border-top: 1px solid #B9B9B9;
+  padding: 0 20px;
   text-align: center;
+
+}
+
+.footer__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
 }
 
 .footer__logo {
