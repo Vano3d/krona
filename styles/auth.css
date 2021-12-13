@@ -10,7 +10,21 @@
     flex-direction: column;
   }
 
-
+  a:link {
+    color: #000; 
+     
+  }
+  a:visited {
+    color: #000;
+  }
+  a:hover {
+    color: rgba(0, 178, 224, 1); 
+    
+  }
+  /* a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+  } */
 
 
 .header {
@@ -89,6 +103,11 @@
   font-size: 16px;
   font-weight: 400;
   padding-left: 35px;
+  cursor: pointer;
+ }
+
+ .form__remember::after:hover {
+  border: 2px solid #00B2E0;
   
  }
 
@@ -132,6 +151,7 @@
   z-index: 5;
 }
 
+/* Тут можно установить цвет фона чекбокса */
 /* .form__checkbox:checked + .form__remember::before{
   background-color: rgb(214, 255, 206);
 } */
