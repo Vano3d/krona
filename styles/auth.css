@@ -80,22 +80,62 @@
   display: flex;
   justify-content: space-between;
   margin-top: 48px;
-  height: 28px;
+ 
 }
 
 .form__remember {
   font-size: 16px;
   font-weight: 400;
-  display: block;
+  padding-left: 35px;
+ }
+
+ .form__remember::before {
+   content: "";
+   display: block;
+   width: 18px;
+   height: 18px;
+   border: 1px solid #00B2E0;
+   background-color: #fff;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   
+ }
+
+ .form__remember::after {
+   content: "";
+   display: block;
+   width: 18px;
+   height: 18px;
+   background: url("/images/checkbox_galka.svg") no-repeat;
+   background-size: 15px 15px;
+   background-position: center;
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 2;
+  opacity: 0;
+ }
+
+.form__container {
+  position: relative;
 }
 
 .form__checkbox {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #33475B;
-  background-color: #EAF0F6;
-  
+  opacity: 0;
+  position: absolute;
+  z-index: 5;
 }
+
+/* .form__checkbox:checked + .form__remember::before{
+  background-color: rgb(214, 255, 206);
+} */
+
+.form__checkbox:checked + .form__remember::after{
+  opacity: 1;
+}
+
 
 .form__reset {
   font-size: 16px;
