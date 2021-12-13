@@ -257,7 +257,7 @@ flex-direction: column;
     font-size: 24px;
    }
    .form {
-    width: 350px;
+    width: 345px;
   }
 
     .footer__address {
@@ -267,5 +267,11 @@ flex-direction: column;
   .footer__contacts {
     font-size: 12px;
   }
+
+  .form__input {
+
+    font-size: 14px;
+ 
+  }  
 
 }
